@@ -8,6 +8,7 @@ const About = () => {
       <Link href='/index'>
         <button>Home</button>
       </Link>
+      <Image />
       <p>Don't mind the sparseness of this web page. Just testing out the functional process of turning a Client-Side Rendered App into a Server-Side Rendered one.</p>
     </div>
   );
