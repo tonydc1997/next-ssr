@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Index = () => (
   <div>
     <h1>SSR MAGICIAN</h1>
