@@ -73,7 +73,14 @@ var Index = function Index() {
       lineNumber: 3
     },
     __self: this
-  }, "SSR MAGICIAN"));
+  }, "SSR MAGICIAN"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, "About"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -99,7 +106,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -124,5 +131,5 @@ module.exports = dll_5d62d38be3592dca3a42;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map

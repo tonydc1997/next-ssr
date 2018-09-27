@@ -73,7 +73,14 @@ var About = function About() {
       lineNumber: 4
     },
     __self: this
-  }, "About"));
+  }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/index",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, "Home"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -99,7 +106,7 @@ var About = function About() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -124,5 +131,5 @@ module.exports = dll_5d62d38be3592dca3a42;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map
