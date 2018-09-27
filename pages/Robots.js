@@ -1,14 +1,20 @@
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 
-const robots = () => {
+const robots = (props) => {
   return (
     <div>
       <h1>Robots</h1>
       <Link href="/">
         <button>Home</button>
       </Link>
-      <div>Robots Data</div>
+      <div>
+        {
+          props.robots.map(robot => (
+            <li key={robot.id}></li>
+          ))
+        }
+      </div>
     </div>
   )
 }
