@@ -16,6 +16,9 @@ const robots = () => {
 robots.getInitialProps = async function() {
   const response = await fetch('https://jsonplaceholder.typicode.com/users');
   const data = await response.json();
+  return {
+    robots: data
+  }
 }
 
 export default robots;
