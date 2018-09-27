@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div>
+    <div style={{fontFamily: 'Open Sans, Helvetica Nue', color: '#242424'}}>
       <h1>About</h1>
       <Link href='/index'>
         <button>Home</button>
       </Link>
-      {/* <a href="/index">Home</a> */}
+      <p>Don't mind the sparseness of this web page. Just testing out the functional process of turning a Client-Side Rendered App into a Server-Side Rendered one.</p>
     </div>
   );
 }
