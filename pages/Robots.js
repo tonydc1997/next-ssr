@@ -2,7 +2,7 @@ import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 
 const robots = () => {
-  return() => {
+  return (
     <div>
       <h1>Robots</h1>
       <Link href="/">
@@ -10,7 +10,7 @@ const robots = () => {
       </Link>
       <div>Robots Data</div>
     </div>
-  }
+  )
 }
 
 export default robots;

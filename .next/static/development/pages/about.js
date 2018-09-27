@@ -10153,7 +10153,7 @@ var About = function About() {
     },
     __self: this
   }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/index",
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import robots from './robots';
 
 const Index = () => (
   <div>
@@ -7,7 +8,7 @@ const Index = () => (
       <button>About</button>
     </Link>
     <Link href='/robots'>
-      <button>robots</button>
+      <button>Robots</button>
     </Link>
   </div>
 );
