@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div style={{fontFamily: 'Open Sans, Helvetica Nue', color: '#242424'}}>
       <h1>About</h1>
-      <Link href='/index'>
+      <Link href='/'>
         <button>Home</button>
       </Link>
       <Image />
