@@ -11,7 +11,9 @@ const robots = (props) => {
       <div>
         {
           props.robots.map(robot => (
-            <li key={robot.id}></li>
+            <li key={robot.id}>
+              {robot.name}
+            </li>
           ))
         }
       </div>
