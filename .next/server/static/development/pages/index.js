@@ -221,6 +221,9 @@ var robots = function robots(props) {
   }, props.robots.map(function (robot) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
       key: robot.id,
+      style: {
+        padding: '0.25em'
+      },
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14

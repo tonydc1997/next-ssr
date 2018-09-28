@@ -4607,7 +4607,7 @@ module.exports = window.fetch || (window.fetch = __webpack_require__(/*! unfetch
   !*** ./node_modules/isomorphic-unfetch/node_modules/unfetch/dist/unfetch.mjs ***!
   \*******************************************************************************/
 /*! exports provided: default */
-/***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -10188,6 +10188,9 @@ var robots = function robots(props) {
   }, props.robots.map(function (robot) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
       key: robot.id,
+      style: {
+        padding: '0.25em'
+      },
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
@@ -10264,7 +10267,7 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!*******************************!*\
   !*** multi ./pages/robots.js ***!
   \*******************************/
@@ -10289,5 +10292,5 @@ module.exports = dll_5d62d38be3592dca3a42;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[5,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=robots.js.map

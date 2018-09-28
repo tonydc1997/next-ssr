@@ -11,7 +11,7 @@ const robots = (props) => {
       <div>
         {
           props.robots.map(robot => (
-            <li key={robot.id}>
+            <li key={robot.id} style={{padding: '0.25em'}}>
               <Link href={`robots/${robot.id}`}>
                 <a>{robot.name}</a>
               </Link>
