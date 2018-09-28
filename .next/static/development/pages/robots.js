@@ -4607,7 +4607,7 @@ module.exports = window.fetch || (window.fetch = __webpack_require__(/*! unfetch
   !*** ./node_modules/isomorphic-unfetch/node_modules/unfetch/dist/unfetch.mjs ***!
   \*******************************************************************************/
 /*! exports provided: default */
-/***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -10144,7 +10144,16 @@ var RobotCard = function RobotCard(_ref) {
       email = _ref.email,
       id = _ref.id;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5",
+    style: {
+      textAlign: 'center',
+      backgroundColor: '#9eebcf',
+      borderRadius: '0.5rem',
+      borderWidth: '0.25rem',
+      display: 'inline-block',
+      margin: '0.5rem',
+      padding: '1rem',
+      boxShadow: '4px 4px 8px 0px rgba( 0, 0, 0, 0.2 )'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
@@ -10155,25 +10164,25 @@ var RobotCard = function RobotCard(_ref) {
     alt: "Robot",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 17
     },
     __self: this
   }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 18
     },
     __self: this
   }, email)));
@@ -10267,7 +10276,9 @@ var robots = function robots(props) {
   }, props.robots.map(function (robot) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
       key: robot.id,
-      className: 'tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5',
+      style: {
+        padding: '0.25em'
+      },
       __source: {
         fileName: _jsxFileName,
         lineNumber: 15
