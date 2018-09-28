@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
-import RobotCard from './RobotCard';
+import RobotCard from '../components/RobotCard';
 
 const robots = (props) => {
   return (
