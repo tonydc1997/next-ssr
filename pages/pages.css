@@ -1,0 +1,42 @@
+.tc {
+  text-align: center;
+}
+
+.bg-light-green {
+  background-color: #9eebcf;
+}
+
+.br3 {
+  border-radius: 0.5rem;
+}
+.bw2 {
+  border-width: 0.25rem;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.grow {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05);
+}
+
+.ma2 {
+  margin: 0.5rem;
+}
+
+.pa3 {
+  padding: 1rem;
+}
+
+.shadow-5 {
+  box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+}
