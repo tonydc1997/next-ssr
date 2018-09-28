@@ -1,7 +1,7 @@
-const robotCard = ({name, email, id}) => {
+const RobotCard = ({name, email, id}) => {
   return(
-    <div className=' tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
-      <img src={`https://robohash.org/${robot.id}/set_set3?size=200x200`} alt="Robot"/>
+    <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
+      <img src={`https://robohash.org/${id}/set_set3?size=200x200`} alt="Robot"/>
       <div>
         <h2>{name}</h2>
         <p>{email}</p>
@@ -11,4 +11,4 @@ const robotCard = ({name, email, id}) => {
 
 }
 
-export default robotCard;
+export default RobotCard;
