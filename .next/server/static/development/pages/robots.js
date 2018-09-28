@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/RobotCard.js":
-/*!****************************!*\
-  !*** ./pages/RobotCard.js ***!
-  \****************************/
+/***/ "./components/RobotCard.js":
+/*!*********************************!*\
+  !*** ./components/RobotCard.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/anthonycurtis/repos/zero_to_mastery_course/next-ssr/pages/RobotCard.js";
+var _jsxFileName = "/Users/anthonycurtis/repos/zero_to_mastery_course/next-ssr/components/RobotCard.js";
 
 
 var RobotCard = function RobotCard(_ref) {
@@ -177,7 +177,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _RobotCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./RobotCard */ "./pages/RobotCard.js");
+/* harmony import */ var _components_RobotCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/RobotCard */ "./components/RobotCard.js");
 
 var _jsxFileName = "/Users/anthonycurtis/repos/zero_to_mastery_course/next-ssr/pages/robots.js";
 
@@ -226,7 +226,8 @@ var robots = function robots(props) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
       key: robot.id,
       style: {
-        padding: '0.25em'
+        padding: '0.25em',
+        display: 'inline'
       },
       __source: {
         fileName: _jsxFileName,
@@ -240,7 +241,7 @@ var robots = function robots(props) {
         lineNumber: 16
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_RobotCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_RobotCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
       name: robot.name,
       email: robot.email,
       __source: {
@@ -287,7 +288,7 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/robots.js ***!
   \*******************************/

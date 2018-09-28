@@ -12,7 +12,7 @@ const robots = (props) => {
       <div>
         {
           props.robots.map(robot => (
-            <li key={robot.id} style={{padding: '0.25em'}}>
+            <li key={robot.id} style={{padding: '0.25em', display: 'inline'}}>
               <Link href={`robots/${robot.id}`}>
                 <RobotCard 
                   name={robot.name}

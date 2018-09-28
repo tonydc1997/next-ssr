@@ -1,5 +1,72 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/robots.js"],{
 
+/***/ "./components/RobotCard.js":
+/*!*********************************!*\
+  !*** ./components/RobotCard.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/anthonycurtis/repos/zero_to_mastery_course/next-ssr/components/RobotCard.js";
+
+
+var RobotCard = function RobotCard(_ref) {
+  var name = _ref.name,
+      email = _ref.email,
+      id = _ref.id;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      textAlign: 'center',
+      backgroundColor: '#9eebcf',
+      borderRadius: '0.5rem',
+      borderWidth: '0.25rem',
+      display: 'inline-block',
+      margin: '0.5rem',
+      padding: '1rem',
+      boxShadow: '4px 4px 8px 0px rgba( 0, 0, 0, 0.2 )'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://robohash.org/".concat(id, "/set_set3?size=200x200"),
+    alt: "Robot",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, email)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (RobotCard);
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js ***!
@@ -4607,7 +4674,7 @@ module.exports = window.fetch || (window.fetch = __webpack_require__(/*! unfetch
   !*** ./node_modules/isomorphic-unfetch/node_modules/unfetch/dist/unfetch.mjs ***!
   \*******************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -10125,92 +10192,6 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/RobotCard.js":
-/*!****************************!*\
-  !*** ./pages/RobotCard.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/anthonycurtis/repos/zero_to_mastery_course/next-ssr/pages/RobotCard.js";
-
-
-var RobotCard = function RobotCard(_ref) {
-  var name = _ref.name,
-      email = _ref.email,
-      id = _ref.id;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      textAlign: 'center',
-      backgroundColor: '#9eebcf',
-      borderRadius: '0.5rem',
-      borderWidth: '0.25rem',
-      display: 'inline-block',
-      margin: '0.5rem',
-      padding: '1rem',
-      boxShadow: '4px 4px 8px 0px rgba( 0, 0, 0, 0.2 )'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://robohash.org/".concat(id, "/set_set3?size=200x200"),
-    alt: "Robot",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, email)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (RobotCard);
-    (function (Component, route) {
-      if(!Component) return
-      if (false) {}
-      module.hot.accept()
-      Component.__route = route
-
-      if (module.hot.status() === 'idle') return
-
-      var components = next.router.components
-      for (var r in components) {
-        if (!components.hasOwnProperty(r)) continue
-
-        if (components[r].Component.__route === route) {
-          next.router.update(r, Component)
-        }
-      }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/RobotCard")
-  
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
-
-/***/ }),
-
 /***/ "./pages/robots.js":
 /*!*************************!*\
   !*** ./pages/robots.js ***!
@@ -10228,7 +10209,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/isomorphic-unfetch/browser.js");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _RobotCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./RobotCard */ "./pages/RobotCard.js");
+/* harmony import */ var _components_RobotCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/RobotCard */ "./components/RobotCard.js");
 
 var _jsxFileName = "/Users/anthonycurtis/repos/zero_to_mastery_course/next-ssr/pages/robots.js";
 
@@ -10277,7 +10258,8 @@ var robots = function robots(props) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
       key: robot.id,
       style: {
-        padding: '0.25em'
+        padding: '0.25em',
+        display: 'inline'
       },
       __source: {
         fileName: _jsxFileName,
@@ -10291,7 +10273,7 @@ var robots = function robots(props) {
         lineNumber: 16
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_RobotCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_RobotCard__WEBPACK_IMPORTED_MODULE_4__["default"], {
       name: robot.name,
       email: robot.email,
       __source: {
@@ -10357,7 +10339,7 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/robots.js ***!
   \*******************************/
@@ -10382,5 +10364,5 @@ module.exports = dll_5d62d38be3592dca3a42;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=robots.js.map
