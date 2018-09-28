@@ -4,24 +4,26 @@ import RobotCard from '../components/RobotCard';
 
 const robots = (props) => {
   return (
-    <div>
-      <h1>Robots</h1>
-      <Link href="/">
-        <button>Home</button>
-      </Link>
+    <div style={{background: 'linear-gradient(to bottom, #cef9ea, #71b6d3)'}}>
       <div>
-        {
-          props.robots.map(robot => (
-            <li key={robot.id} style={{padding: '0.25em', display: 'inline'}}>
-              <Link href={`robots/${robot.id}`}>
-                <RobotCard 
-                  name={robot.name}
-                  email={robot.email}
-                />
-              </Link>
-            </li>
-          ))
-        }
+        <h1>Robots</h1>
+        <Link href="/">
+          <button>Home</button>
+        </Link>
+        <div>
+          {
+            props.robots.map(robot => (
+              <li key={robot.id} style={{padding: '0.25em', display: 'inline'}}>
+                <Link href={`robots/${robot.id}`}>
+                  <RobotCard 
+                    name={robot.name}
+                    email={robot.email}
+                  />
+                </Link>
+              </li>
+            ))
+          }
+        </div>
       </div>
     </div>
   )
