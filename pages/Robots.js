@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
+import RobotCard from './RobotCard';
 
 const robots = (props) => {
   return (
@@ -10,23 +11,16 @@ const robots = (props) => {
       </Link>
       <div>
         {
-          props.robots.map(robot => {
-            return (
-              <RobotCard 
-                key={robot.id}
-                name={robot.name}
-                email={robot.email}
-              />
-            )
-          })
-          
-          }
-            {/* <li key={robot.id}>
+          props.robots.map(robot => (
+            <li key={robot.id} style={{padding: '0.25em'}}>
               <Link href={`robots/${robot.id}`}>
-                <a>{robot.name}</a>
+                <RobotCard 
+                  name={robot.name}
+                  email={robot.email}
+                />
               </Link>
             </li>
-          )) */}
+          ))
         }
       </div>
     </div>
