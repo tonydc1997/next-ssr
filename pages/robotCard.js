@@ -9,7 +9,7 @@ const RobotCard = ({name, email, id}) => {
       display: 'inline-block', 
       margin: '0.5rem',
       padding: '1rem',
-      boxShadow: '4px 4px 8px 0px rgba( 0, 0, 0, 0.2 )'
+      boxShadow: '4px 4px 8px 0px rgba( 0, 0, 0, 0.2 )' 
       }
       }>
       <img src={`https://robohash.org/${id}/set_set3?size=200x200`} alt="Robot"/>
