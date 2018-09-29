@@ -160,9 +160,9 @@ var RobotCard = function RobotCard(_ref) {
 
 /***/ }),
 
-/***/ "./pages/robots.js":
+/***/ "./pages/Robots.js":
 /*!*************************!*\
-  !*** ./pages/robots.js ***!
+  !*** ./pages/Robots.js ***!
   \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -179,7 +179,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_RobotCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/RobotCard */ "./components/RobotCard.js");
 
-var _jsxFileName = "/Users/anthonycurtis/repos/zero_to_mastery_course/next-ssr/pages/robots.js";
+var _jsxFileName = "/Users/anthonycurtis/repos/zero_to_mastery_course/next-ssr/pages/Robots.js";
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -299,12 +299,12 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 
 /***/ 5:
 /*!*******************************!*\
-  !*** multi ./pages/robots.js ***!
+  !*** multi ./pages/Robots.js ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/robots.js */"./pages/robots.js");
+module.exports = __webpack_require__(/*! ./pages/Robots.js */"./pages/Robots.js");
 
 
 /***/ }),
@@ -354,4 +354,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=robots.js.map
+//# sourceMappingURL=Robots.js.map

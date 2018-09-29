@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import robots from './robots';
+import Robots from './Robots';
 
 const Index = () => (
   <div>
@@ -7,7 +7,7 @@ const Index = () => (
     <Link href='/about'>
       <button>About</button>
     </Link>
-    <Link href='/robots'>
+    <Link href='/Robots'>
       <button>Robots</button>
     </Link>
   </div>
